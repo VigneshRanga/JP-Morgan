@@ -48,5 +48,7 @@ public class TaskFiveTests {
         }
         output.append("---end output ---");
         logger.info(output.toString());
+        Thread.sleep(60000); // Sleep for 60 seconds
+
     }
 }
